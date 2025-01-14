@@ -4,11 +4,11 @@ import { presetRadix, radixColors } from "./src";
 import unocss from "unocss/vite";
 import dts from "vite-plugin-dts";
 
-export default defineConfig(({}) => ({
+export default defineConfig(({ }) => ({
   build: {
     lib: {
       entry: "./src/index.ts",
-      name: "unocss-preset-radix-colors",
+      name: "unocss-preset-radix-ui-colors",
       fileName: "index",
       formats: ["es", "cjs"],
     },

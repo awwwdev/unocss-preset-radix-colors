@@ -9,15 +9,15 @@ outline: deep
 ::: code-group
 
 ```sh [npm]
-$ npm add -D unocss-preset-radix-colors
+$ npm add -D unocss-preset-radix-ui-colors
 ```
 
 ```sh [pnpm]
-$ pnpm add -D unocss-preset-radix-colors
+$ pnpm add -D unocss-preset-radix-ui-colors
 ```
 
 ```sh [yarn]
-$ yarn add -D unocss-preset-radix-colors
+$ yarn add -D unocss-preset-radix-ui-colors
 ```
 
 :::
@@ -27,7 +27,7 @@ $ yarn add -D unocss-preset-radix-colors
 ```ts
 // uno.config.ts (or vite.config.ts)
 import { defineConfig, presetUno } from "unocss";
-import { presetRadix } from "unocss-preset-radix-colors";
+import { presetRadix } from "unocss-preset-radix-ui-colors";
 
 export default defineConfig({
   presets: [
@@ -89,7 +89,7 @@ See [Alias Utility](/v3/alias-utility) for more information.
 ```ts
 // uno.config.ts (or vite.config.ts)
 import { defineConfig, presetUno } from "unocss";
-import { presetRadix } from "unocss-preset-radix-colors";
+import { presetRadix } from "unocss-preset-radix-ui-colors";
 
 export default defineConfig({
   presets: [

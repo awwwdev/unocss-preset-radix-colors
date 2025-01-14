@@ -1,5 +1,5 @@
 {
-  "name": "unocss-preset-radix-colors",
+  "name": "unocss-preset-radix-ui-colors",
   "version": "1.0.0",
   "author": "awwwdev",
   "packageManager": "pnpm@8.7.5",
@@ -18,14 +18,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/awwwdev/unocss-preset-radix-colors.git"
+    "url": "git+https://github.com/awwwdev/unocss-preset-radix-ui-colors.git"
   },
   "bugs": {
-    "url": "https://github.com/awwwdev/unocss-preset-radix-colors/issues"
+    "url": "https://github.com/awwwdev/unocss-preset-radix-ui-colors/issues"
   },
   "keywords": [
     "unocss",
-    "radix"
+    "radix",
+    "radix-ui",
+    "radix-colors"
   ],
   "license": "MIT",
   "dependencies": {
@@ -41,8 +43,6 @@
   ],
   "devDependencies": {
     "@unocss/cli": "^0.63.3",
-    "alpinejs": "^3.13.0",
-    "bumpp": "^9.2.0",
     "typescript": "^5.2.2",
     "unocss": "^0.55.7",
     "vite": "^4.4.9",

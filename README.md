@@ -1,20 +1,20 @@
-# unocss-preset-radix-colors
+# unocss-preset-radix-ui-colors
 
 ## Installation
 
 ```
-npm install -D  unocss-preset-radix-colors
+npm install -D  unocss-preset-radix-ui-colors
 ```
 or with pnpm 
 ```
-pnpm i -D  unocss-preset-radix-colors
+pnpm i -D  unocss-preset-radix-ui-colors
 ```
 
 ## Usage
 
 ```ts
 import { defineConfig, presetUno } from "unocss";
-import { presetRadix } from "unocss-preset-radix-colors";
+import { presetRadix } from "unocss-preset-radix-ui-colors";
 
 export default defineConfig({
   presets: [

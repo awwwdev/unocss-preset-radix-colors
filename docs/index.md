@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "unocss-preset-radix-colors"
+  name: "unocss-preset-radix-ui-colors"
   text: "A preset for UnoCSS to let you use Radix color palette "
   actions:
     - theme: brand
