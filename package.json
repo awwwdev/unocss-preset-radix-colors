@@ -1,9 +1,9 @@
 {
-  "name": "unocss-preset-radix",
-  "version": "3.0.0",
-  "author": "endigma <endigma@mailcat.ca>",
+  "name": "unocss-preset-radix-colors",
+  "version": "1.0.0",
+  "author": "awwwdev",
   "packageManager": "pnpm@8.7.5",
-  "description": "A preset for UnoCSS providing access to the Radix UI color palette, along with some helpers for using it.",
+  "description": "A preset for UnoCSS to easily use Radix UI color palette with P3 support and optimized generated CSS size .",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
@@ -18,10 +18,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/endigma/unocss-preset-radix.git"
+    "url": "git+https://github.com/awwwdev/unocss-preset-radix-colors.git"
   },
   "bugs": {
-    "url": "https://github.com/endigma/unocss-preset-radix/issues"
+    "url": "https://github.com/awwwdev/unocss-preset-radix-colors/issues"
   },
   "keywords": [
     "unocss",

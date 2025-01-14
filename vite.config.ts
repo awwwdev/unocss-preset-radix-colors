@@ -8,7 +8,7 @@ export default defineConfig(({}) => ({
   build: {
     lib: {
       entry: "./src/index.ts",
-      name: "unocss-preset-radix",
+      name: "unocss-preset-radix-colors",
       fileName: "index",
       formats: ["es", "cjs"],
     },

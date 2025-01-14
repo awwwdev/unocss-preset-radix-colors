@@ -14,7 +14,7 @@
     "skipLibCheck": true,
     "jsx": "preserve",
     "paths": {
-      "unocss-preset-radix": [
+      "unocss-preset-radix-colors": [
         "./src"
       ]
     }

@@ -6,8 +6,8 @@ import { RADIX_HUES } from "../../src/consts";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "unocss-preset-radix",
-  base: "/unocss-preset-radix/",
+  title: "unocss-preset-radix-colors",
+  base: "/unocss-preset-radix-colors/",
   vite: {
     plugins: [
       unocss({
@@ -82,7 +82,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/endigma/unocss-preset-radix",
+        link: "https://github.com/awwwdev/unocss-preset-radix-colors",
       },
     ],
   },

@@ -65,7 +65,7 @@ export function presetRadix<T extends Aliases>({
   }
 
   return {
-    name: "unocss-preset-radix",
+    name: "unocss-preset-radix-colors",
     layers: layer
       ? {
           preflights: 1,
@@ -160,7 +160,7 @@ export function presetRadix<T extends Aliases>({
     extractors: [
       // extracts usage of css variables with radix color format.
       {
-        name: "unocss-preset-radix-css-variables-extractor",
+        name: "unocss-preset-radix-colors-css-variables-extractor",
         order: 1,
         extract({ code }) {
           const mySplitRE = /var\(\s?--([A-Za-z0-9\-\_]+)-([a-z]+)(1|2|3|4|5|6|7|8|9|10|11|12|-fg)(A)?[\s\)\,]/g;
