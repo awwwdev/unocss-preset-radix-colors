@@ -1,0 +1,53 @@
+{
+  "name": "unocss-preset-radix",
+  "version": "3.0.0",
+  "author": "endigma <endigma@mailcat.ca>",
+  "packageManager": "pnpm@8.7.5",
+  "description": "A preset for UnoCSS providing access to the Radix UI color palette, along with some helpers for using it.",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "build:demo": "vite build --mode demo",
+    "test:update": "vitest -u",
+    "release": "bumpp --commit --push --tag",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "check-types": "tsc --pretty --noEmit",
+    "test": "unocss -c uno.config.ts -o test-result.css --watch  \"./**/*.tsx\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/endigma/unocss-preset-radix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/endigma/unocss-preset-radix/issues"
+  },
+  "keywords": [
+    "unocss",
+    "radix"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@radix-ui/colors": "3.0.0",
+    "@unocss/core": "^0.55.7"
+  },
+  "sideEffects": false,
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@unocss/cli": "^0.63.3",
+    "alpinejs": "^3.13.0",
+    "bumpp": "^9.2.0",
+    "typescript": "^5.2.2",
+    "unocss": "^0.55.7",
+    "vite": "^4.4.9",
+    "vite-plugin-dts": "^3.5.3",
+    "vitepress": "1.0.0-rc.14",
+    "vitest": "^0.34.4"
+  }
+}
