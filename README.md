@@ -88,7 +88,7 @@ Which will render as:
 
 > [!NOTE]
 > The preset removes the space after `var(`, the trailing space, the trailing comma or the closing bracket. So all of these works:
-
+>
 > - var(--un-preset-radix-red9)
 > - var(--un-preset-radix-red9 )
 > - var( --un-preset-radix-red9)
