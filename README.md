@@ -1,5 +1,10 @@
 # unocss-preset-radix-ui-colors
 
+WARNING: This preset is still in alpha. It is not recommended to use in production.
+
+A preset for UnoCSS to let you use Radix color palette. 
+
+
 ## Installation
 
 ```
