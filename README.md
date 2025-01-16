@@ -85,6 +85,7 @@ Which will render as:
   Text on gray background
 </div>
 
+
 > [!NOTE]
 > The preset removes the space after `var(`, the trailing space, the trailing comma or the closing bracket. So all of these works:
 
@@ -237,9 +238,8 @@ You can preserve an all steps (12 steps + 12 alpha steps + `fg` step) of a hue. 
 You can preserve an specific steps of an alias. Like `success4`, `warning5A`, `base-fg`, etc.
 You can preserve an all steps of an alias (12 steps + 12 alpha steps + `fg` step). Like `success`, `warning`, `base`, etc.
 
-::: warning  
-Any safelist alias must be defined in aliases option, otherwise it will be ignored.
-:::
+> [!WARNING]
+> Any safelist alias must be defined in aliases option, otherwise it will be ignored.
 
 Dark mode and alpha variants are automatically.
 
