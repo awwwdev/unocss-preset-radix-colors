@@ -1,6 +1,7 @@
 # unocss-preset-radix-ui-colors
 
-WARNING: This preset is still in alpha. It is not recommended to use in production.
+> [!WARNING]
+> This preset is still in alpha. It is not recommended to use in production.
 
 A preset for UnoCSS to let you use Radix color palette. 
 
@@ -61,9 +62,8 @@ Which will render as:
 
 You can switch the docs theme in the ... menu in the top right corner of the page.
 
-::: info
-You don't need to add @dark:bg-red9 or anything for dark mode. When `darkSelector` is applied to a scope colors are switched to dark mode.
-:::
+> [!INFO]
+> You don't need to add @dark:bg-red9 or anything for dark mode. When `darkSelector` is applied to a scope colors are switched to dark mode.
 
 ## Usage in CSS  (Adding Radix colors as CSS Variables)
 
