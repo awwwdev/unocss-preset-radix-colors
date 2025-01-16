@@ -15,26 +15,6 @@ or with pnpm
 pnpm i -D  unocss-preset-radix-ui-colors
 ```
 
-# Getting Started
-
-## Installation
-
-::: code-group
-
-```sh [npm]
-$ npm add -D unocss-preset-radix-ui-colors
-```
-
-```sh [pnpm]
-$ pnpm add -D unocss-preset-radix-ui-colors
-```
-
-```sh [yarn]
-$ yarn add -D unocss-preset-radix-ui-colors
-```
-
-:::
-
 ## Vite/UnoCSS Configuration
 
 ```ts
