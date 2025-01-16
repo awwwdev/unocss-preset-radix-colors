@@ -62,7 +62,7 @@ Which will render as:
 
 You can switch the docs theme in the ... menu in the top right corner of the page.
 
-> [!INFO]
+> [!NOTE]
 > You don't need to add @dark:bg-red9 or anything for dark mode. When `darkSelector` is applied to a scope colors are switched to dark mode.
 
 ## Usage in CSS  (Adding Radix colors as CSS Variables)
@@ -85,21 +85,19 @@ Which will render as:
   Text on gray background
 </div>
 
-::: info
-The preset removes the space after `var(`, the trailing space, the trailing comma or the closing bracket. So all of these works:
+> [!NOTE]
+> The preset removes the space after `var(`, the trailing space, the trailing comma or the closing bracket. So all of these works:
 
-- var(--un-preset-radix-red9)
-- var(--un-preset-radix-red9 )
-- var( --un-preset-radix-red9)
-- var( --un-preset-radix-red9 )
-- var(--un-preset-radix-red9,red)
-- var(--un-preset-radix-red9 ,red)
-- var( --un-preset-radix-red9, red)
-- var( --un-preset-radix-red9,red)
-- var(--un-preset-radix-red9,red)
-- var(--un-preset-radix-red9,var(--...))
-
-:::
+> - var(--un-preset-radix-red9)
+> - var(--un-preset-radix-red9 )
+> - var( --un-preset-radix-red9)
+> - var( --un-preset-radix-red9 )
+> - var(--un-preset-radix-red9,red)
+> - var(--un-preset-radix-red9 ,red)
+> - var( --un-preset-radix-red9, red)
+> - var( --un-preset-radix-red9,red)
+> - var(--un-preset-radix-red9,red)
+> - var(--un-preset-radix-red9,var(--...))
 
 If you use this in CSS files, make sure UnoCSS watches these CSS files.
 
@@ -120,9 +118,8 @@ Which renders as:
 
 <button class="px-4 py-2 rd-2 alias-accent-violet bg-accent4 bg-my-color">Button</button>
 
-::: warning
-Note alias name must be one of aliases defined in [`aliases` option](/v2/configuration#aliases), otherwise it won't work.
-:::
+> [!WARNING]
+> Note alias name must be one of aliases defined in [`aliases` option](/v2/configuration#aliases), otherwise it won't work.
 
 You can reset an alias name multiple times. For example:
 
